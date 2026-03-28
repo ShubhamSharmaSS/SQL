@@ -1,0 +1,28 @@
+--## SQL INTRODUCTION --
+--RDBMS was introduced in 1980, from there in 2010s cloud based platforms.
+--In 2014 Snowflake was introduced...
+--Computerised DB system were introduced in 1960s.
+--RDMS like oracle,SQL server (Microsoft), DB2 (IBM) -> 1980s
+--RDMS-> data are stored in form of rows and coloumns (i.e. Tables) and related data are stored in different tables and linked using redundnat values.
+--Coloumns: An individual piece of data.
+--Row: A Set of related of coloumns.
+--Table: A sets of rows.
+--Primary Key: One or more coloumns that can be used as a unique identifer for each row in a table.
+--Foreign Key: One or more coloumns that can be used together to identify a single row in another table.
+--Normalization: The process of designing a DB to ensure that each indepent piece of information is in only one place (except for foregin Keys).
+--SQL: Structured Query Language, it was orignally developed for quering/retriving and manupulating the data in relational databases. It is evolved to handle complex data such as JavaScript Object Notation (JSON) or other documents allowing integration b/w SQL and procedural languages such as python.
+--SQL command categories: 
+    --> Schema Statements (data definiton language (DDL)): Creating & modifying DB structure; ex: Create table, Create Index, Alter Table.
+    -->Data Statement (Data Manupulation Language (DML)): Quering and manupulating data. ex: select,insert,update,delete,merge.
+    -->Transaction Statements (Transaction controled language (TCL)): creating & ending transations. ex: commit,rollback.
+--SQL is a non-procedural language; meaning that you define waht you want done, but not how to do it.
+--SQL SCRIPTING: To fill a gap of procedural language(Python, Java) with constructs(looping, conditional statement) to SQL. Ex: ORACLE->PL/SQL , MICROSOFT->TRANSACT-SQL. Snowflake provides snowflake-scripting-language (SnowSL), which allows user to declare variables, incorporate loopings, conditional statements,detect and hadle exceptions.
+
+--### SNOWFLAKE SQL--
+--Snowflake was launched in 2014, it a cloud based, full-featured relational Database.
+--It can be hosted on any cloud service like AWS,AZURE,GCP, ETC...
+--It can stores and compute the data.
+--Compute engines of snowflake is scaleable on demand, because of cloud.
+--Snowflake is a SOFTWARE AS A SERVICE (SaaS). --> Benift, available at anytime over any standard browser, nothing need to installed locally need to focus on core business.
+--Snowflake provides snowflake-scripting-language (SnowSL), which allows user to declare variables, incorporate loopings, conditional statements,detect and hadle exceptions.
+--warehouse size can be b/w x-small to 6x-large.
